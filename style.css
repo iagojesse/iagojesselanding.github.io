@@ -1,0 +1,235 @@
+body{
+    margin: 0%;
+font-family: 'Roboto', sans-serif;
+}
+.fade-out {
+    animation: fadeOut 0.5s;
+    opacity: 0;
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column ;
+    justify-content: center; 
+    width: 150px;
+    gap: 20px; 
+}
+
+.button-group button {
+    color: white; 
+    border: 2px solid rgb(71, 71, 71); 
+    border-radius: 10px; 
+    background-color:rgb(71, 71, 71);
+    padding: 10px 20px; 
+    cursor: pointer; 
+    margin: 10px;
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.button-group button:hover {
+    background-color: #e0e0e0;
+    color: #d0d0d0; 
+}
+
+header {
+    width: 100%; 
+    text-align: center; 
+}
+
+header {
+        width: 100%; 
+        text-align: center; 
+        padding: 30px;  
+}
+
+header img{
+    height: 150px;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+
+}
+
+header{ 
+    background-color: rgb(34, 34, 34);
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+}
+section{
+    background-color: rgb(47, 47, 47);
+    margin: 50px;
+    padding: 50px;
+    color: white;
+    border-radius: 25px;
+}
+
+footer{
+    padding: 10px;
+}
+
+body.pagina2 {
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+    
+.pagina2 .container {
+    background-color: #333;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    border-radius: 60px;
+}
+
+.pagina2 section {
+    background-color: rgb(47, 47, 47);
+    margin: 50px;
+    padding: 160px; 
+    color: white;
+    border-radius: 25px;
+}
+.pagina2 section:hover {
+    background-color: #555; 
+    transform: scale(1.05); 
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+body.pagina3 {
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.left{
+
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+}
+
+h2 {
+    color: white;
+    font-size: 20px;
+}
+
+.right{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background-color: rgb(18, 18, 18);
+    border-radius: 20px;   
+    position: relative; 
+}
+
+.textfield{ 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px  0px;
+}
+
+.textfield > input{
+
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #555;
+    color: white;
+    font-size: 12pt;
+    box-shadow:rgb(68, 68, 68);
+}
+
+.textfield > label{
+         
+    color: white;
+    margin-bottom: 10px;
+}
+.textfield > input::placeholder{
+
+    color: rgb(117, 117, 117);
+}
+
+.btn{
+
+    width: 50%;
+    padding: 16px 0px;
+    margin: 30px;
+    border: none;
+    border-radius: 18px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: rgb(255, 255, 255);
+    background: #333;
+    cursor: pointer;
+    align-items: center;
+    transition: background-color 0.3s, color 0.3s;  
+
+}
+
+.btn .btn:hover {
+    background-color: #e0e0e0;
+    color: #d0d0d0; 
+}
+
+.container {
+    background-color: rgb(18, 18, 18);
+    height: 50px;
+    width: 20%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+    padding: 280px 05px;
+
+}
+
+.absolute{
+    position: absolute;
+}
+.btn-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25%;
+    transition: background-color 0.3s, color 0.3s;  
+    
+}
+.btn-group button:hover {
+    background-color: #e0e0e0;
+    color: #d0d0d0; 
+}
+
+.btn + .btn {
+    margin-top: 35px; 
+}
+
+
+
